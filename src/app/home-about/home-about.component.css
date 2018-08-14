@@ -1,0 +1,20 @@
+.home-about {
+    /* Structure */
+    height: 90vh;
+
+    /* Style */
+    background-image: linear-gradient(to right bottom rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705)),
+        url(../../assets/highway2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom: 1px solid black;
+}
+
+.btn {
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 1vw;
+}

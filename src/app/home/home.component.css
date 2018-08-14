@@ -1,0 +1,14 @@
+.main {
+    background: linear-gradient(to right bottom, rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705));
+    height: 60vw;
+    margin-bottom: 3vh;
+}
+
+.carousel-item {
+  height: 60vw;
+  z-index: -5;
+}
+
+.control {
+    z-index: 30;
+}

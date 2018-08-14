@@ -1,0 +1,41 @@
+.home-events {
+    /* Structure */
+    height: 80vh;
+    width: 100%;
+    /* margin-bottom: 10vh; */
+
+    /* Style */
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.events-heading {
+    /* Structure */
+    height: 20%;
+    margin-top: 10vh;
+
+    /* Style */
+}
+
+.events {
+    /* Structure */
+    display: flex;
+    height: 80%;
+    width: 100%;
+    margin-top: 0;
+    justify-content: center;
+    /* align-items: center; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    /* Style */
+}
+
+@media screen and (max-width : 675px) {
+
+    .events {
+        justify-content: initial;
+    }
+
+} 

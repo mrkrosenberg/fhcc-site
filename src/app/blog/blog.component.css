@@ -1,0 +1,21 @@
+.blog-heading {
+    /* Structure */
+    margin-top: 10vh;
+
+    /* Style */
+    text-align: center;
+}
+
+.blog-section {
+    /* Struture */
+    height: 80vh;
+    width: 100%;
+    /* padding-top: 20vh; */
+    padding-left: 10vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    /* Style */
+    border-bottom: 1px solid black;
+}

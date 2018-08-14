@@ -1,0 +1,26 @@
+.navbar {
+    background: white;
+    border-bottom: 1px solid black;
+}
+
+.nav-item {
+    color: black;
+}
+
+.btn {
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .donate-btn{
+        display: none;
+    }
+}

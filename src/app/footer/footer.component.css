@@ -1,0 +1,9 @@
+.footer {
+    /* Structure */
+    height: 50vh;
+
+    /* Style */
+    background-color: black;
+    color: white;
+    align-items: center;
+}

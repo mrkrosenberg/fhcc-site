@@ -1,0 +1,13 @@
+.blog-post {
+    display: inline-block;
+    height: 48.5vh;
+    width: 300px;
+    margin: 10vh 10px auto 10px;
+    background-color: white;
+    border: 2px solid black;    
+}
+
+.blog-post:hover {
+    transform: translateY(-1vh);
+}
+

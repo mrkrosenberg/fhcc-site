@@ -1,0 +1,50 @@
+.heading {
+  background-image: url(../../assets/white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+
+.title {
+    margin-top: 10vw;
+    /* color: black; */
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h6 {
+    font-size: 3vw;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 1vw;
+}
+
+/* change background image for smaller screens */
+
+@media screen and (max-width: 768px) {
+
+    .heading {
+        background-size: 70vh;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .heading {
+        background-size: 35vh
+    }
+
+}

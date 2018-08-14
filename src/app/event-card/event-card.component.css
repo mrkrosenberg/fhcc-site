@@ -1,0 +1,14 @@
+.event-card {
+    /* Structure */
+    display: inline-block;
+    height: 50vh;
+    width: 300px;
+    margin: 20px;
+
+    /* Style */
+    background-image: url(../../assets/vandemonium.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
