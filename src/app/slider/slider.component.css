@@ -2,7 +2,6 @@
   background: linear-gradient(to right bottom, rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705));
   height: 60vw;
   margin-bottom: 3vh;
-  border-bottom: 1px solid black;
 }
 
 .carousel-item {

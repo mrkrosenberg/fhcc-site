@@ -2,11 +2,9 @@
     /* Structure */
     height: 80vh;
     width: 100%;
-    /* margin-bottom: 10vh; */
 
     /* Style */
     text-align: center;
-    border-bottom: 1px solid black;
 }
 
 .events-heading {
