@@ -1,6 +1,6 @@
 .home-subscribe {
      /* Structure */
-     height: 70vh;
+     height: 80vh;
 
     /* Parallax Scrolling Background */
     background-image: linear-gradient(to right bottom rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705)),
@@ -23,12 +23,13 @@
 }
 
 .btn {
-  /* Structure */
-  padding: 15px 80px;
-  /* Style */
-  background: none;
-  border: 2px solid white;
-  border-radius: 40px;
-  color: white;
-  font-size: 1.25rem;
+    /* Structure */
+    padding: 15px 80px;
+    
+    /* Style */
+    background: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font-size: 1.25rem;
 }
