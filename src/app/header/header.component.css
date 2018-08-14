@@ -1,25 +1,39 @@
 .navbar {
+    /* Structure */
+
+    /* Style */
     background: white;
 }
 
 .nav-item {
+    /* Structure */
+    margin-left: 2vh;
+
+    /* Style */
     color: black;
+    font-size: .90rem;
 }
 
 .btn {
+    /* Structure */
+    padding: 10px 40px;
+
+    /* Style */
     background: none;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 @media screen and (max-width: 767px) {
     .btn {
+        /* Strucutre */
         display: none;
     }
 }
 
 @media screen and (min-width: 768px) {
     .donate-btn{
+        /* Structure */
         display: none;
     }
 }

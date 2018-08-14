@@ -24,13 +24,18 @@ h6 {
     font-size: 3vw;
 }
 
-.btn {
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 1vw;
+.btn-container {
+    margin-bottom: 15vh;
 }
 
+.btn {
+  /* Structure */
+  padding: 10px 40px;
+  /* Style */
+  background: none;
+  border: 2px solid black;
+  border-radius: 40px;
+}
 /* change background image for smaller screens */
 
 @media screen and (max-width: 768px) {

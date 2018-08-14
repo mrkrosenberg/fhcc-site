@@ -11,8 +11,11 @@
 }
 
 .btn {
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 1vw;
+  /* Structure */
+  padding: 10px 40px;
+  
+  /* Style */
+  background: none;
+  border: 2px solid black;
+  border-radius: 40px;
 }
