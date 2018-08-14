@@ -1,10 +1,10 @@
 .home-donate {
     /* Structure */
-    height: 80vh;
+    height: 100vh;
     text-align: center;
 
     /* Style */
-    background-image: url(../../assets/gray.png);
+    background-image: url(../../assets/black1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80vh;
@@ -12,10 +12,12 @@
 
 .btn {
   /* Structure */
-  padding: 10px 40px;
-  
+  padding: 15px 80px;
+
   /* Style */
   background: none;
   border: 2px solid black;
   border-radius: 40px;
+  color: black;
+  font-size: 1.25rem;
 }

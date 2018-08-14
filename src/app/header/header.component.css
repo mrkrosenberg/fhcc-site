@@ -15,13 +15,15 @@
 }
 
 .btn {
-    /* Structure */
-    padding: 10px 40px;
+  /* Structure */
+  padding: 8px 30px;
 
-    /* Style */
-    background: none;
-    border: 2px solid black;
-    border-radius: 40px;
+  /* Style */
+  background: none;
+  border: 2px solid black;
+  border-radius: 40px;
+  color: black;
+  font-size: .80rem;
 }
 
 @media screen and (max-width: 767px) {

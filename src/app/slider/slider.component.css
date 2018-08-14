@@ -12,3 +12,33 @@
 .control {
   z-index: 30;
 }
+
+.mobile-view {
+  display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .main {
+    display: none;
+  }
+
+  .mobile-view {
+    /* Structure */
+    display: block;
+    height: 80vh;
+
+    /* Style */
+    background-image: linear-gradient(to right bottom, rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705)), 
+      url(../../assets/slide1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .title {
+    height: 100%;
+  }
+
+}
