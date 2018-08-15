@@ -1,6 +1,8 @@
+/* Main Component */
+
 .home-about {
     /* Structure */
-    height: 90vh;
+    height: 120vh;
 
     /* Style */
     background-image: linear-gradient(to right bottom rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705)),
@@ -11,13 +13,58 @@
     background-attachment: fixed;
 }
 
+/* Content */
+
+.about-content {
+    /* Structure */
+    height: 100%;
+    margin-left: 10vw;
+    padding-top: 15vh;
+
+    /* Style */
+    font-size: 1.25rem;
+    color: white;
+}
+
+.heading {
+    margin-bottom: 3vh;
+}
+
+h5 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.btn-container {
+    /* Structure */
+    margin-top: 15vh;
+
+    /* Style */
+}
+
 .btn {
-  /* Structure */
-  padding: 15px 80px;
-  /* Style */
-  background: none;
-  border: 2px solid white;
-  border-radius: 40px;
-  color: white;
-  font-size: 1.25rem;
+    /* Structure */
+    padding: 15px 80px;
+
+    /* Style */
+    background: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 400px) {
+
+    .home-about {
+        /* Structure */
+        height: 130vh;
+
+        /* Style */
+        font-size: .25rem;
+    }
+
+    h5 {
+        /* text-align: center; */
+    }
 }
