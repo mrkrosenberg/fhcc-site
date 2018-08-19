@@ -18,7 +18,7 @@
 
 .blog-section {
     /* Struture */
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     padding-left: 10vh;
     overflow-x: scroll;
@@ -31,7 +31,7 @@
 .btn-container {
     /* Strucutre */
     height: 30vh;
-    margin-top: 15vh;
+    margin-top: 10vh;
 
     /* Style */
 
@@ -48,3 +48,6 @@
   color: black;
   font-size: 1.25rem;
 }
+
+/* Button Animations */
+

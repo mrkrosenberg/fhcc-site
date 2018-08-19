@@ -1,13 +1,21 @@
 .blog-post {
+    /* Structure */
     display: inline-block;
     height: 48.5vh;
     width: 300px;
     margin: 10vh 10px auto 10px;
+
+    /* Style */
     background-color: white;
     border: 2px solid black;    
 }
 
 .blog-post:hover {
     transform: translateY(-1vh);
+    box-shadow: 2vh 1vh 40px;
+}
+
+.blog-post:active {
+    transform: translate(.5vh);
 }
 
