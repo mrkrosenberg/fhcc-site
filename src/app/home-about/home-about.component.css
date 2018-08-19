@@ -11,6 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-bottom: 1px solid black;
 }
 
 /* Content */
@@ -18,7 +19,8 @@
 .about-content {
     /* Structure */
     height: 100%;
-    margin-left: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
     padding-top: 15vh;
 
     /* Style */
@@ -58,13 +60,19 @@ h5 {
 
     .home-about {
         /* Structure */
-        height: 130vh;
+        height: 110vh;
 
         /* Style */
-        font-size: .25rem;
     }
 
-    h5 {
-        /* text-align: center; */
+    .about-content {
+        /* Structure */
+
+        /* Style */
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.88rem;
     }
 }
