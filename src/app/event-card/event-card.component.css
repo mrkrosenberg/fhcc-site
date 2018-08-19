@@ -13,3 +13,12 @@
     background-repeat: no-repeat;
     border: 2px solid black;
 }
+
+.event-card:hover {
+  transform: translateY(-1vh);
+  box-shadow: 2vh 1vh 40px;
+}
+
+.event-card:active {
+  transform: translate(.5vh);
+}
