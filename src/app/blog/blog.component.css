@@ -1,5 +1,15 @@
+.home-blog {
+    /* Structure */
+    height: 110vh;
+    text-align: center;
+
+    /* Style */
+    border-bottom: 1px solid black;
+}
+
 .blog-heading {
     /* Structure */
+    height: 10vh;
     margin-top: 10vh;
 
     /* Style */
@@ -8,9 +18,8 @@
 
 .blog-section {
     /* Struture */
-    height: 100vh;
+    height: 60vh;
     width: 100%;
-    /* padding-top: 20vh; */
     padding-left: 10vh;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -20,7 +29,12 @@
 }
 
 .btn-container {
-    border-bottom: 1px solid black;
+    /* Strucutre */
+    height: 30vh;
+    margin-top: 15vh;
+
+    /* Style */
+
 }
 
 .btn {

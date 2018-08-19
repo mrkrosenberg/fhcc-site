@@ -1,15 +1,17 @@
 .home-events {
-    /* height: 100vh;
+    /* Structure */
+    height: 110vh;
     width: 100%;
 
+    /* Style */
     text-align: center;
-    border-bottom: 1px solid black; */
+    border-bottom: 1px solid black;
 }
 
 .events-heading {
     /* Structure */
     height: 20vh;
-    padding-top: 10vh;
+    margin-top: 10vh;
 
     /* Style */
 }
@@ -17,7 +19,7 @@
 .events {
     /* Structure */
     display: flex;
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     margin-top: 0;
     justify-content: center;
@@ -29,7 +31,11 @@
 }
 
 .btn-container {
-    /* height: 30vh; */
+    /* Structure */
+    height: 30vh;
+    margin-top: 5vh;
+
+    /* Style */
 }
 
 .btn {
