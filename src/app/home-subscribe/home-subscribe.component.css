@@ -23,9 +23,17 @@
     color: white;
 }
 
+.btn-container {
+    /* Structure */
+    text-align: center;
+
+    /* Style */
+}
+
 .btn {
     /* Structure */
     padding: 15px 80px;
+    display: block;
     
     /* Style */
     background: none;

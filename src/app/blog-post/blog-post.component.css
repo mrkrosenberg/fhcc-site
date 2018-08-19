@@ -17,5 +17,6 @@
 
 .blog-post:active {
     transform: translate(.5vh);
+    box-shadow: 1vh 0.5vh 20px;
 }
 
