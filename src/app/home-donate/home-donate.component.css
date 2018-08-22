@@ -1,7 +1,7 @@
 .home-donate {
     /* Structure */
     height: 100vh;
-    text-align: center;
+    padding-top: 20vh;
 
     /* Style */
     background-image: url(../../assets/black1.png);
@@ -9,6 +9,13 @@
     background-repeat: no-repeat;
     background-size: 80vh;
     border-bottom: 1px solid black;
+    text-align: center;
+}
+
+p {
+  /* Structure */
+  width: 75vw;
+  margin: 5vh 12.5vw 15vh 12.5vw;
 }
 
 .btn {
