@@ -3,6 +3,10 @@
     display: none;
 }
 
+/* .heading-container {
+    position: absolute;
+} */
+
 .heading {
     /* Structure */
     background-image: url(../../assets/white1.png);

@@ -2,8 +2,9 @@
     /* Structure */
 
     /* Style */
-    background: white;
+    background: none;
     border-bottom: 1px solid rgb(26, 138, 166);
+    color: rgb(26, 138, 166);
 }
 
 .nav-item {
@@ -15,15 +16,19 @@
     font-size: .90rem;
 }
 
+.nav-link {
+    color: rgb(26, 138, 166);
+}
+
 .btn {
   /* Structure */
   padding: 8px 30px;
 
   /* Style */
   background: none;
-  border: 2px solid black;
+  border: 2px solid rgb(26, 138, 166);
   border-radius: 40px;
-  color: black;
+  color: rgb(26, 138, 166);
   font-size: .80rem;
 }
 
