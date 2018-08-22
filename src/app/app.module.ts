@@ -15,9 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BlogComponent } from './blog/blog.component';
 import { AboutComponent } from './about/about.component';
 import { MainTitleComponent } from './main-title/main-title.component';
-import { TitleBlockComponent } from './title-block/title-block.component';
 import { ButtonComponent } from './button/button.component';
-import { LogoBlockComponent } from './logo-block/logo-block.component';
 import { BlogPostComponent } from './blog-post/blog-post.component';
 import { HomeEventsComponent } from './home-events/home-events.component';
 import { EventCardComponent } from './event-card/event-card.component';
@@ -42,9 +40,7 @@ import { SliderComponent } from './slider/slider.component';
     BlogComponent,
     AboutComponent,
     MainTitleComponent,
-    TitleBlockComponent,
     ButtonComponent,
-    LogoBlockComponent,
     BlogPostComponent,
     HomeEventsComponent,
     EventCardComponent,
