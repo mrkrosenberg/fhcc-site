@@ -56,6 +56,20 @@ h5 {
     font-size: 1.25rem;
 }
 
+/* Button Effect */
+
+.btn:hover {
+  /* Style */
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
+  transform: scale(1.01);
+}
+
+.btn:active {
+  /* Style */
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
+  transform: scale(1);
+}
+
 @media screen and (max-width: 400px) {
 
     .home-about {
