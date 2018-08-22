@@ -12,11 +12,11 @@
 
 .blog-post:hover {
     transform: translateY(-1vh);
-    box-shadow: 2vh 1vh 40px;
+    box-shadow: 2vh 1vh 40px rgba(0, 0, 0, 0.25);
 }
 
 .blog-post:active {
     transform: translate(.5vh);
-    box-shadow: 1vh 0.5vh 20px;
+    box-shadow: 1vh 0.5vh 20px rgba(0, 0, 0, 0.25);
 }
 

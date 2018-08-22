@@ -1,3 +1,4 @@
+/* Mobile View component */
 .heading-container-mobile {
     display: none;
 }
@@ -57,18 +58,16 @@ p {
 /* Button Effect */
 
 .btn:hover {
-    /* Style */
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
-    transform: scale(1.01);
+  /* Style */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+  transform: scale(1.01);
 }
 
 .btn:active {
-    /* Style */
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
-    transform: scale(1);
+  /* Style */
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
+  transform: scale(1);
 }
-
-
 
 @media screen and (max-width: 800px) {
 

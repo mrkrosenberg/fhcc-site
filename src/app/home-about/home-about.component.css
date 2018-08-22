@@ -1,16 +1,16 @@
-/* Main Component */
-
 .home-about {
     /* Structure */
     height: 120vh;
 
-    /* Style */
+    /* Parallax Scrolling Background */
     background-image: linear-gradient(to right bottom rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705)),
         url(../../assets/highway2.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    /* Style */
     border-bottom: 1px solid black;
 }
 
@@ -29,10 +29,12 @@
 }
 
 .heading {
+    /* Structure */
     margin-bottom: 3vh;
 }
 
 h5 {
+    /* Style */
     font-size: 3rem;
     font-weight: 600;
 }
@@ -60,7 +62,7 @@ h5 {
 
 .btn:hover {
   /* Style */
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
   transform: scale(1.01);
 }
 
@@ -87,6 +89,7 @@ h5 {
     }
 
     .btn {
+        /* Style */
         font-size: 0.88rem;
     }
 }
