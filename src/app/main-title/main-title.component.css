@@ -46,9 +46,8 @@ p {
 }
 
 .btn-container {
-    margin-bottom: 20vh;
-    /* margin-left: 10rem; */
-    transform: translate(-50%, -50%);
+    /* margin-bottom: 20vh; */
+    padding-bottom: 20vh;
 }
 
 .btn {
@@ -74,7 +73,7 @@ p {
   transform: scale(1);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
     .heading {
         /* Structure */
