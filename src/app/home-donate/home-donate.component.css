@@ -8,8 +8,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80vh;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(26, 138, 166);
     text-align: center;
+    color: rgb(26, 138, 166);
 }
 
 p {
@@ -24,9 +25,9 @@ p {
 
   /* Style */
   background: none;
-  border: 2px solid black;
+  border: 2px solid rgb(26, 138, 166);
   border-radius: 40px;
-  color: black;
+  color: rgb(26, 138, 166);
   font-size: 1.25rem;
 }
 
