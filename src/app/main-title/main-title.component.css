@@ -30,19 +30,19 @@
 }
 
 h1 {
-    font-size: 6vw;
+    font-size: 5.5vw;
     font-weight: 700;
     letter-spacing: 1vh;
 }
 
 h6 {
     font-size: 3vw;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 p {
     font-size: 3vw;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 .btn-container {
