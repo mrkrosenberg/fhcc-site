@@ -48,7 +48,7 @@ h5 {
 
 .btn {
     /* Structure */
-    padding: 15px 80px;
+    padding: 15px 65px;
 
     /* Style */
     background: none;
@@ -88,8 +88,4 @@ h5 {
         font-size: 0.9rem;
     }
 
-    .btn {
-        /* Style */
-        font-size: 0.88rem;
-    }
 }
