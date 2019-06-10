@@ -9,12 +9,17 @@ import { DonateComponent } from './donate/donate.component';
 import { EventsComponent } from './events/events.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AboutComponent } from './about/about.component';
+import { NewsComponentComponent } from './news-component/news-component.component';
 
 
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'news',
+    component: NewsComponentComponent
   },
   {
     path: 'contact',

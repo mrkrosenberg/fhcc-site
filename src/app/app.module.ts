@@ -25,6 +25,7 @@ import { HomeSubscribeComponent } from './home-subscribe/home-subscribe.componen
 import { SupportComponent } from './support/support.component';
 import { SliderButtonComponent } from './slider-button/slider-button.component';
 import { SliderComponent } from './slider/slider.component';
+import { NewsComponentComponent } from './news-component/news-component.component';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import { SliderComponent } from './slider/slider.component';
     HomeSubscribeComponent,
     SupportComponent,
     SliderButtonComponent,
-    SliderComponent
+    SliderComponent,
+    NewsComponentComponent
   ],
   imports: [
     BrowserModule,
