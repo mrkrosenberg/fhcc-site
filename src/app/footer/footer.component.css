@@ -1,9 +1,11 @@
 .footer {
     /* Structure */
-    height: 50vh;
+    height: 25vh;
 
     /* Style */
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
     align-items: center;
+    align-content: center;
+    justify-content: center;
 }
