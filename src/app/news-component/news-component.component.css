@@ -1,0 +1,20 @@
+.title {
+    background-color: rgba(118, 233, 118, 0.705);
+    height: 60vh;
+    border-bottom: 1px solid rgb(26, 138, 166);
+}
+
+.news-content {
+    /* Structure */
+    height: 100vh;
+    padding-top: 20vh;
+
+    /* Style */
+    background-image: url(../../assets/black1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    border-bottom: 1px solid rgb(26, 138, 166);
+    text-align: center;
+    color: rgb(26, 138, 166);
+}
