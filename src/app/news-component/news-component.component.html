@@ -2,6 +2,19 @@
     <h1>News & Updates</h1>
 </div>
 <div class="container-fluid news-content">
-  
+  <div class="news-options">
+    <div class="story-option story1" (click)="onStoryChange(story1)"></div>
+    <div class="story-option story2" (click)="onStoryChange(story2)"></div>
+    <div class="story-option story3" (click)="onStoryChange(story3)"></div>
+    <div class="story-option story4" (click)="onStoryChange(story4)"></div>
+    <div class="story-option story5" (click)="onStoryChange(story5)"></div>
+    <div class="story-option story6" (click)="onStoryChange(story6)"></div>
+  </div>
+  <div class="stories">
+    <div class="story">
+      <h4>{{featureStory.title}}</h4>
+      <p>{{featureStory.content}}</p>
+    </div>
+  </div>
 </div>
 
