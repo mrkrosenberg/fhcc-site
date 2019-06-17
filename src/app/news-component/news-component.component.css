@@ -1,7 +1,15 @@
-.title {
+.title-container {
     background-color: rgba(118, 233, 118, 0.705);
     height: 60vh;
     border-bottom: 1px solid rgb(26, 138, 166);
+
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.title {
+    font-size: 5.5vw;
+    color: white;
 }
 
 .news-content {
@@ -17,6 +25,12 @@
     border-bottom: 1px solid rgb(26, 138, 166);
     text-align: center;
     color: rgb(26, 138, 166);
+}
+
+.news-options {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .stories {
