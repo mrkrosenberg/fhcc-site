@@ -29,6 +29,70 @@
     /* Style */
 }
 
+.blog-post {
+  /* Structure */
+  display: inline-block;
+  height: 48.5vh;
+  width: 300px;
+  margin: 10vh 10px auto 10px;
+
+  /* Style */
+  background-color: white;
+  border: 2px solid black;    
+}
+
+.blog-post:hover {
+  transform: translateY(-1vh);
+  box-shadow: 2vh 1vh 40px rgba(0, 0, 0, 0.25);
+}
+
+.blog-post:active {
+  transform: translate(.5vh);
+  box-shadow: 1vh 0.5vh 20px rgba(0, 0, 0, 0.25);
+}
+
+.one {
+  background-image: url(../../assets/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.two {
+  background-image: url(../../assets/bcc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.three {
+  background-image: url(../../assets/highwaysign.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.four {
+  background-image: url(../../assets/cannonball.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.five {
+  background-image: url(../../assets/vandemonium.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.six {
+  background-image: url(../../assets/wagbags.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .btn-container {
     /* Strucutre */
     height: 30vh;

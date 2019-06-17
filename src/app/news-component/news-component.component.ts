@@ -25,22 +25,22 @@ export class NewsComponentComponent implements OnInit {
   }
 
   story3 = {
-    title : `Adopt-a-Highway`,
+    title : `Wag Bags`,
     content : `story 2`
   }
 
   story4 = {
-    title : `Cannonball Community Night`,
+    title : `Adopt a Highway`,
     content : `story 2`
   }
 
   story5 = {
-    title : `Vandemonium`,
+    title : `Cannonball Community Night`,
     content : `story 2`
   }
 
   story6 = {
-    title : `Wag Bags`,
+    title : `Vandemonium`,
     content : `story 2`
   }
 
