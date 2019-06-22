@@ -1,5 +1,6 @@
 .footer {
     height: 25vh;
+    padding-top: 5vh;
 
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
@@ -12,7 +13,7 @@
 
 i {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 10px;
 }
 
