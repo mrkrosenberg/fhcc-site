@@ -12,38 +12,45 @@
     color: white;
 }
 
-h3 {
+.event-details {
+    width: 100%;
+    /* height: 125vh; */
+    align-content: center;
+
+}
+
+.event-container {
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h6 {
     display: inline;
 }
 
+h6:hover {
+    cursor: pointer;
+}
+
 .event-card {
-    /* Structure */
     display: inline-block;
     height: 50vh;
     width: 300px;
     margin-left: 20px;
     margin-right: 20px;
-    
-    /* Style */
-    background-image: url(../../assets/aah.jpg);
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border: 1px solid rgb(26, 138, 166);
 }
 
-.event-card-2 {
-      /* Structure */
-      display: inline-block;
-      height: 50vh;
-      width: 300px;
-      margin-left: 20px;
-      margin-right: 20px;
-      
-      /* Style */
+.one {
+    background-image: url(../../assets/aah.jpg);
+}
+
+.two {
       background-image: url(../../assets/vandemonium.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      border: 1px solid rgb(26, 138, 166);
 }
