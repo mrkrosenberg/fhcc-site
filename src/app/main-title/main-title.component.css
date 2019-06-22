@@ -45,9 +45,21 @@ p {
     font-weight: 100;
 }
 
+.social-links {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+i {
+    color: white;
+    margin: 10px;
+    font-size: 2rem;
+}
+
 .btn-container {
     /* margin-bottom: 20vh; */
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
 }
 
 .btn {

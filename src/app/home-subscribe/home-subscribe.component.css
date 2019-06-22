@@ -1,7 +1,7 @@
 .home-subscribe {
      /* Structure */
      height: 100vh;
-     padding-top: 25vh;
+     padding-top: 10vh;
 
     /* Parallax Scrolling Background */
     background-image: linear-gradient(to right bottom rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705)),
@@ -23,6 +23,11 @@
     color: white;
 }
 
+.indicates-required {
+    font-size: .5rem;
+    color: white;
+}
+
 input {
     /* Structure */
     width: 300px;
@@ -38,7 +43,7 @@ input {
     /* Style */
 }
 
-.btn {
+.button {
     /* Structure */
     padding: 15px 65px;
     
@@ -52,13 +57,13 @@ input {
 
 /* Button Effect */
 
-.btn:hover {
+.button:hover {
   /* Style */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
   transform: scale(1.01);
 }
 
-.btn:active {
+.button:active {
   /* Style */
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
   transform: scale(1);

@@ -13,11 +13,9 @@
 }
 
 .news-content {
-    /* Structure */
     height: 150vh;
     padding-top: 10vh;
 
-    /* Style */
     background-image: url(../../assets/black1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -50,74 +48,26 @@
 }
 
 .story1 {
-    /* height: 20vh;
-    width: 50px;
-    margin: 0 20px;
-    border: 1px solid rgb(26, 138, 166);
-    display: inline-block; */
     background-image: url(../../assets/logo.png);
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 
 .story2 {
-    /* height: 20vh;
-    width: 50px;
-    margin: 0 20px;
-    border: 1px solid rgb(26, 138, 166);
-    display: inline-block; */
     background-image: url(../../assets/bcc.png);
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 
 .story3 {
-    /* height: 20vh;
-    width: 50px;
-    margin: 0 20px;
-    border: 1px solid rgb(26, 138, 166);
-    display: inline-block; */
     background-image: url(../../assets/wagbags.jpg);
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 
 .story4 {
-    /* height: 20vh;
-    width: 50px;
-    margin: 0 20px;
-    border: 1px solid rgb(26, 138, 166);
-    display: inline-block; */
     background-image: url(../../assets/highwaysign.jpg);
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 
 .story5 {
-    /* height: 20vh;
-    width: 50px;
-    margin: 0 20px;
-    border: 1px solid rgb(26, 138, 166);
-    display: inline-block; */
     background-image: url(../../assets/cannonball.jpg);
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 
 .story6 {
-    /* height: 20vh;
-    width: 50px;
-    margin: 0 20px;
-    border: 1px solid rgb(26, 138, 166);
-    display: inline-block; */
     background-image: url(../../assets/vandemonium.jpg);
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 

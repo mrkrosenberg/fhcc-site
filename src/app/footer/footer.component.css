@@ -1,11 +1,22 @@
 .footer {
-    /* Structure */
     height: 25vh;
 
-    /* Style */
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+}
+
+.social-links {
+    width: 100%;
+    text-align: center;
+}
+
+i {
+    color: white;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.org-info {
+    width: 100%;
+    text-align: center;
 }
