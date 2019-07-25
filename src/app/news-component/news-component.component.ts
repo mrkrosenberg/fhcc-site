@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Story } from '../models/story';
 
 @Component({
   selector: 'app-news-component',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsComponentComponent implements OnInit {
 
-  constructor() { }
+  constructor(private story: Story) { }
 
   featureStory = {
     title : ``,
