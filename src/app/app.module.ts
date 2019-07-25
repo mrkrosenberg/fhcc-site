@@ -1,6 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Firebase Modules/Dependencies
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+
+// Environment Config
+import { environment } from '../environments/environment';
+
+// Routing
 import { AppRoutingModule } from './/app-routing.module';
 
 // Components
@@ -55,7 +63,9 @@ import { NewsComponentComponent } from './news-component/news-component.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig, 'FHCC Site'),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
