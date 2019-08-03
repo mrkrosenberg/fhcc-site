@@ -11,6 +11,9 @@ import { environment } from '../environments/environment';
 // Routing
 import { AppRoutingModule } from './/app-routing.module';
 
+// Services
+import { FirebaseService } from './services/firebase.service';
+
 // Components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -67,7 +70,9 @@ import { NewsComponentComponent } from './news-component/news-component.componen
     AngularFireModule.initializeApp(environment.firebaseConfig, 'FHCC Site'),
     AngularFirestoreModule
   ],
-  providers: [],
+  providers: [
+    FirebaseService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

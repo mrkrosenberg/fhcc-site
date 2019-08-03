@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Story } from '../models/story';
+// import { Story } from '../models/story';
+import { FirebaseService } from '../services/firebase.service';
 
 @Component({
   selector: 'app-news-component',
@@ -8,54 +9,59 @@ import { Story } from '../models/story';
 })
 export class NewsComponentComponent implements OnInit {
 
-  constructor(private story: Story) { }
+  constructor(public firebaseService: FirebaseService) { }
 
-  featureStory = {
-    title : ``,
-    content : ``
-  }
+  // featureStory = {
+  //   title : ``,
+  //   content : ``
+  // }
 
-  story1 = {
-    title : `We are the FHCC`,
-    content : `story 1`
-  }
+  // story1 = {
+  //   title : `We are the FHCC`,
+  //   content : `story 1`
+  // }
 
-  story2 = {
-    title : `Thanks, Boulder Climbing Community!`,
-    content : `story 2`
-  }
+  // story2 = {
+  //   title : `Thanks, Boulder Climbing Community!`,
+  //   content : `story 2`
+  // }
 
-  story3 = {
-    title : `Wag Bags`,
-    content : `story 2`
-  }
+  // story3 = {
+  //   title : `Wag Bags`,
+  //   content : `story 2`
+  // }
 
-  story4 = {
-    title : `Adopt a Highway`,
-    content : `story 2`
-  }
+  // story4 = {
+  //   title : `Adopt a Highway`,
+  //   content : `story 2`
+  // }
 
-  story5 = {
-    title : `Cannonball Community Night`,
-    content : `story 2`
-  }
+  // story5 = {
+  //   title : `Cannonball Community Night`,
+  //   content : `story 2`
+  // }
 
-  story6 = {
-    title : `Vandemonium`,
-    content : `story 2`
-  }
+  // story6 = {
+  //   title : `Vandemonium`,
+  //   content : `story 2`
+  // }
 
 
   ngOnInit() {
 
-    this.featureStory = this.story1;
+    // this.featureStory = this.story1;
+
+    this.firebaseService.getStories().subscribe(stories => {
+      console.log(stories);
+      console.log('here');
+    })
 
   }
 
 
   onStoryChange(story) {
 
-    this.featureStory = story;
+    // this.featureStory = story;
 
   }
 
