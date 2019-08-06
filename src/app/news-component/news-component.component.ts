@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-// import { Story } from '../models/story';
+
+// Services
 import { FirebaseService } from '../services/firebase.service';
+
+// Models
+import { Story } from '../models/story';
 
 @Component({
   selector: 'app-news-component',
@@ -9,9 +13,8 @@ import { FirebaseService } from '../services/firebase.service';
 })
 export class NewsComponentComponent implements OnInit {
 
-  constructor() { }
+  constructor(private firebaseService: FirebaseService) { }
 
-  public firebaseService: FirebaseService;
 
   // featureStory = {
   //   title : ``,
