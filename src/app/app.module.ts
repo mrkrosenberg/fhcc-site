@@ -6,7 +6,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 // Environment Config
-import { environment } from '../environments/environment';
+import { firebaseConfig } from '../environments/env-variables';
 
 // Routing
 import { AppRoutingModule } from './/app-routing.module';
@@ -67,7 +67,7 @@ import { NewsComponentComponent } from './news-component/news-component.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig, 'FHCC Site'),
+    AngularFireModule.initializeApp(firebaseConfig, 'fhcc'),
     AngularFirestoreModule
   ],
   providers: [
