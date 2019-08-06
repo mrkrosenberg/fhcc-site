@@ -13,7 +13,7 @@ import { Story } from '../models/story';
 })
 export class NewsComponentComponent implements OnInit {
 
-  story: Story[];
+  stories: Story[];
 
   constructor(private firebaseService: FirebaseService) { }
 
@@ -22,14 +22,20 @@ export class NewsComponentComponent implements OnInit {
 
     this.firebaseService.getStories().subscribe(stories => {
 
-      console.log(stories);
+      // console.log(stories);
+      this.stories = stories;
+      // console.log('here are your stories bro', this.story);
 
     });
 
   }
 
 
+
+
   onStoryChange(story) {
+
+    console.log('changed story: ', story);
 
     // this.featureStory = story;
 

@@ -6,18 +6,40 @@
 <div class="container-fluid news-content">
   <h1>Add story for hiring new board members</h1>
   <div class="news-options">
-    <div class="story-option story1" (click)="onStoryChange(story1)"></div>
+    <!-- <div class="story-option story1" (click)="onStoryChange(story1)"></div>
     <div class="story-option story2" (click)="onStoryChange(story2)"></div>
     <div class="story-option story3" (click)="onStoryChange(story3)"></div>
     <div class="story-option story4" (click)="onStoryChange(story4)"></div>
     <div class="story-option story5" (click)="onStoryChange(story5)"></div>
-    <div class="story-option story6" (click)="onStoryChange(story6)"></div>
+    <div class="story-option story6" (click)="onStoryChange(story6)"></div> -->
+    <ul *ngFor="let story of stories" >
+      <li (click)="onStoryChange(story)" >
+        {{story.title}}
+        {{story.description}}
+      </li>
+    </ul>
   </div>
   <div class="stories">
     <!-- <div class="story">
       <h4>{{featureStory.title}}</h4>
       <p>{{featureStory.content}}</p>
-    </div> -->
-  </div>
+    </div>
+  </div> -->
 </div>
 
+
+
+<!-- <div class="container">
+  <div *ngIf="items?.length > 0; else noItems" >
+      <ul *ngFor="let item of items" >
+          <li>
+              <strong>{{item.title}}</strong>
+              {{item.description}}
+          </li>
+      </ul>
+  </div>
+  <ng-template  #noItems>
+      <hr>
+      <h5>There are no items to list</h5>
+  </ng-template>
+</div> -->
