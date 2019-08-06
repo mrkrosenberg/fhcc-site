@@ -8,6 +8,18 @@ import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument 
 @Injectable()
 export class FirebaseService {
 
-  constructor(public firestore: AngularFirestore) { }
+  storyCollection: AngularFirestoreCollection<Story>;
+
+  stories: Observable<Story[]>;
+
+  constructor(public firestore: AngularFirestore) {
+
+    this.stories = this.firestore.collection('stories').valueChanges();
+
+   }
+
+   getStories() {
+     return this.stories;
+   }
 
 }
