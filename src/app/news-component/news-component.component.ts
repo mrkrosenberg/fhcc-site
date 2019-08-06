@@ -13,8 +13,30 @@ import { Story } from '../models/story';
 })
 export class NewsComponentComponent implements OnInit {
 
+  story: Story[];
+
   constructor(private firebaseService: FirebaseService) { }
 
+
+  ngOnInit() {
+
+    this.firebaseService.getStories().subscribe(stories => {
+
+      console.log(stories);
+
+    });
+
+  }
+
+
+  onStoryChange(story) {
+
+    // this.featureStory = story;
+
+  }
+
+
+}
 
   // featureStory = {
   //   title : ``,
@@ -52,23 +74,10 @@ export class NewsComponentComponent implements OnInit {
   // }
 
 
-  ngOnInit() {
 
-    // this.featureStory = this.story1;
+      // this.featureStory = this.story1;
 
     // this.firebaseService.getStories().subscribe(stories => {
     //   console.log(stories);
     //   console.log('here');
     // })
-
-  }
-
-
-  onStoryChange(story) {
-
-    // this.featureStory = story;
-
-  }
-
-
-}
