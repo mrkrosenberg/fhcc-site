@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-// import {  }
+import { Observable } from 'rxjs';
+import { Story } from '../models/story';
 
 // Firebase
 import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument } from '@angular/fire/firestore';
@@ -8,6 +8,6 @@ import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument 
 @Injectable()
 export class FirebaseService {
 
-  constructor() { }
+  constructor(public firestore: AngularFirestore) { }
 
 }

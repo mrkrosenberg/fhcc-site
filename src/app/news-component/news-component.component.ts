@@ -9,7 +9,9 @@ import { FirebaseService } from '../services/firebase.service';
 })
 export class NewsComponentComponent implements OnInit {
 
-  constructor(public firebaseService: FirebaseService) { }
+  constructor() { }
+
+  public firebaseService: FirebaseService;
 
   // featureStory = {
   //   title : ``,
@@ -51,10 +53,10 @@ export class NewsComponentComponent implements OnInit {
 
     // this.featureStory = this.story1;
 
-    this.firebaseService.getStories().subscribe(stories => {
-      console.log(stories);
-      console.log('here');
-    })
+    // this.firebaseService.getStories().subscribe(stories => {
+    //   console.log(stories);
+    //   console.log('here');
+    // })
 
   }
 
