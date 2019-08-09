@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Subject, Subscription } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 
 // Services
 import { FirebaseService } from '../services/firebase.service';
@@ -14,13 +16,16 @@ import { Story } from '../models/story';
 export class NewsComponentComponent implements OnInit {
 
   stories: Story[];
+  unsubscribe: Subject<void> = new Subject<void>();
 
   constructor(private firebaseService: FirebaseService) { }
 
 
   ngOnInit() {
 
-    this.firebaseService.getStories().subscribe(stories => {
+    this.firebaseService.getStories()
+      .pipe(takeUntil(this.unsubscribe))
+      .subscribe(stories => {
 
       // console.log(stories);
       this.stories = stories;
@@ -29,6 +34,11 @@ export class NewsComponentComponent implements OnInit {
     });
 
   }
+
+  ngOnDestroy() {
+    this.unsubscribe.next();
+    this.unsubscribe.complete();
+  };
 
 
 
