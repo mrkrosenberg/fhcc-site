@@ -3,6 +3,7 @@ import { Observable } from 'rxjs';
 import { Story } from '../models/story';
 
 // Firebase
+import { AngularFireDatabase } from '@angular/fire/database';
 import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument } from '@angular/fire/firestore';
  
 @Injectable()

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Subject, Subscription } from 'rxjs';
+import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
 // Services
@@ -39,8 +39,6 @@ export class NewsComponentComponent implements OnInit {
     this.unsubscribe.next();
     this.unsubscribe.complete();
   };
-
-  // this is some new bullshit code for the infinite scrolling function i am trying to implement
 
 
 
