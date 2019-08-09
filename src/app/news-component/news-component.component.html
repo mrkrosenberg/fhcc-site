@@ -5,11 +5,12 @@
 </div>
 <div class="container-fluid news-content">
   <h1>Add story for hiring new board members</h1>
-  <div class="news-options" *ngFor="let story of stories">
-    <div class="story-option">
-        <!-- {{story.title}}
-        {{story.description}} -->
+  <div class="news-options" *ngFor="let story of stories | async">
+      <div class="story-option">
+            {{story?.title}}
+            {{story?.description}}
     </div>
+
   </div>
 </div>
 
