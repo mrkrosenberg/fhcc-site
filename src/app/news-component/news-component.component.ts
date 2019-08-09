@@ -40,6 +40,8 @@ export class NewsComponentComponent implements OnInit {
     this.unsubscribe.complete();
   };
 
+  // this is some new bullshit code for the infinite scrolling function i am trying to implement
+
 
 
 
