@@ -13,14 +13,29 @@ export class FirebaseService {
 
   stories: Observable<Story[]>;
 
-  constructor(public firestore: AngularFirestore) {
+  constructor(public firestore: AngularFirestore, private db: AngularFireDatabase) {
 
     this.stories = this.firestore.collection('stories').valueChanges();
 
    }
 
-   getStories() {
-     return this.stories;
-   }
+  //  getStories() {
+  //    return this.stories;
+  //  }
+
+  getStories(batch, lastKey?) {
+
+    const query = {
+      orderByKey: true,
+      limitToFirst: batch
+    }
+
+    if (lastKey) {
+      query['startAt'] = lastKey;
+    }
+
+    return this.db.list('/stories');
+
+  }
 
 }

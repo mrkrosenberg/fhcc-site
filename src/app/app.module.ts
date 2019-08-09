@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 
 // Firebase Modules/Dependencies
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
 
 // Environment Config
 import { firebaseConfig } from '../environments/env-variables';
@@ -68,7 +70,9 @@ import { NewsComponentComponent } from './news-component/news-component.componen
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig, 'fhcc'),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    AngularFireDatabaseModule,
+    InfiniteScrollModule
   ],
   providers: [
     FirebaseService
