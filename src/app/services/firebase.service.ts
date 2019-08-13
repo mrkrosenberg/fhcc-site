@@ -34,7 +34,9 @@ export class FirebaseService {
       query['startAt'] = lastKey;
     }
 
-    return this.db.list('/stories');
+    return this.db.list('/stories', ref => 
+      query
+    );
 
   }
 
