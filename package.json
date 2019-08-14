@@ -25,6 +25,7 @@
     "clean": "^4.0.2",
     "core-js": "^2.4.1",
     "firebase": "^5.0.3",
+    "material": "^0.3.13",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.5.2",
     "tslib": "^1.10.0",
