@@ -14,6 +14,9 @@ import { AppRoutingModule } from './/app-routing.module';
 // Services
 import { FirebaseService } from './services/firebase.service';
 
+// Misc Modules
+import { ScrollingModule } from '@angular/cdk/scrolling';
+
 // Components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -68,7 +71,8 @@ import { NewsComponentComponent } from './news-component/news-component.componen
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig, 'fhcc'),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    ScrollingModule
   ],
   providers: [
     FirebaseService
