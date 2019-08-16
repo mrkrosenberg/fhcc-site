@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Subject, Subscription } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
+import { AngularFireStorage } from '@angular/fire/storage';
+
 // Services
 import { FirebaseService } from '../services/firebase.service';
 

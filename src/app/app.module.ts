@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 // Firebase Modules/Dependencies
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
 
 // Environment Config
 import { firebaseConfig } from '../environments/env-variables';
@@ -72,6 +73,7 @@ import { NewsComponentComponent } from './news-component/news-component.componen
     AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig, 'fhcc'),
     AngularFirestoreModule,
+    AngularFireStorageModule,
     ScrollingModule
   ],
   providers: [
