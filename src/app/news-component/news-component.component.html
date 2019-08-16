@@ -4,17 +4,22 @@
     </h1>
 </div>
 <div class="container-fluid news-content">
-  
 
+    <div class="news-options" >
+        <div class="story-option" *ngFor="let story of stories" (click)=onStoryChange(story)>
+              {{story?.title}}
+              {{story?.description}}
+      </div>
+  <!-- <cdk-virtual-scroll-viewport itemSize="100">
+
+
+
+  </cdk-virtual-scroll-viewport> -->
 </div>
 
 
 <!-- <h1>Add story for hiring new board members</h1>
-<div class="news-options" *ngFor="let story of stories">
-    <div class="story-option">
-          {{story?.title}}
-          {{story?.description}}
-  </div>
+
 
 </div> -->
 
