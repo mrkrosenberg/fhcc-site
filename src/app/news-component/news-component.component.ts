@@ -16,6 +16,7 @@ import { Story } from '../models/story';
 export class NewsComponentComponent implements OnInit {
 
   stories: Story[];
+  story: Story;
   unsubscribe: Subject<void> = new Subject<void>();
 
   constructor(private firebaseService: FirebaseService) { }
@@ -27,9 +28,10 @@ export class NewsComponentComponent implements OnInit {
       .pipe(takeUntil(this.unsubscribe))
       .subscribe(stories => {
 
-      console.log(stories);
       this.stories = stories;
-      // console.log('here are your stories bro', this.story);
+
+      this.story = stories[0];
+      // console.log(this.story);
 
     });
 
@@ -47,6 +49,7 @@ export class NewsComponentComponent implements OnInit {
   onStoryChange(story) {
 
     console.log('changed story: ', story);
+    this.story = story;
 
     // this.featureStory = story;
 
