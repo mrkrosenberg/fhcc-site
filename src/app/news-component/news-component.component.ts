@@ -27,7 +27,7 @@ export class NewsComponentComponent implements OnInit {
       .pipe(takeUntil(this.unsubscribe))
       .subscribe(stories => {
 
-      // console.log(stories);
+      console.log(stories);
       this.stories = stories;
       // console.log('here are your stories bro', this.story);
 
@@ -38,6 +38,7 @@ export class NewsComponentComponent implements OnInit {
   ngOnDestroy() {
     this.unsubscribe.next();
     this.unsubscribe.complete();
+    console.log('destroyed');
   };
 
 
