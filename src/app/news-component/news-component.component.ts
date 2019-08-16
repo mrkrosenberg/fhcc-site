@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Subject, Subscription } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { AngularFireStorage } from '@angular/fire/storage';
+import { AngularFireStorage, AngularFireStorageReference } from '@angular/fire/storage';
 
 // Services
 import { FirebaseService } from '../services/firebase.service';
@@ -21,7 +21,8 @@ export class NewsComponentComponent implements OnInit {
   story: Story;
   unsubscribe: Subject<void> = new Subject<void>();
 
-  constructor(private firebaseService: FirebaseService) { }
+  constructor(private firebaseService: FirebaseService,
+              private storage: AngularFireStorage) {}
 
 
   ngOnInit() {
