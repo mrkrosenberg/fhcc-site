@@ -7,12 +7,12 @@
     <div class="news-options" >
         <div class="story-option" *ngFor="let story of stories" (click)=onStoryChange(story)>
               {{story?.title}}
-              <!-- {{story?.description}} -->
+              <!-- <img src="{{story?.image}}" alt=""> -->
       </div>
     </div>
     <div class="news-body">
-      {{ story.title }}
-      {{ story.description }}
+      {{ story?.title }}
+      {{ story?.description }}
     </div>
 </div>
 

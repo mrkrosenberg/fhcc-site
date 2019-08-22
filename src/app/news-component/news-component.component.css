@@ -14,7 +14,7 @@
 
 .news-content {
     height: 150vh;
-    width: 80%;
+    width: 75%;
     padding-top: 10vh;
     text-align: center;
     justify-content: center;
@@ -29,21 +29,16 @@
 }
 
 .news-options {
-    /* width: 60%; */
-
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    /* border-left: 3px inset black;
-    border-right: 3px inset black; */
-    /* background-color: black; */
 }
 
 .story-option {
     padding: 0px 50px;
     margin: 0 20px;
     height: 20vh;
-    width: 30px;
+    width: 30vh;
     border: 1px solid rgb(26, 138, 166);
     display: inline-block;
     background-image: url(../../assets/black1.png);
@@ -52,29 +47,4 @@
     background-repeat: no-repeat;
 }
 
-
-
-/* .story1 {
-    background-image: url(../../assets/logo.png);
-}
-
-.story2 {
-    background-image: url(../../assets/bcc.png);
-}
-
-.story3 {
-    background-image: url(../../assets/wagbags.jpg);
-}
-
-.story4 {
-    background-image: url(../../assets/highwaysign.jpg);
-}
-
-.story5 {
-    background-image: url(../../assets/cannonball.jpg);
-}
-
-.story6 {
-    background-image: url(../../assets/vandemonium.jpg);
-} */
 
