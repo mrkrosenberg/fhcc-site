@@ -1,19 +1,17 @@
-.color {
-    background-color: rgba(118, 233, 118, 0.705);
-    height: 100%;
-    width: 100%
-}
-
 .home-about {
     height: 120vh;
     border-bottom: 1px solid rgb(26, 138, 166);
-
-    background-image: 
-        url(../../assets/highway2.jpg);
+    background-image: url(../../assets/highway2.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.color {
+    background-color: rgba(118, 233, 118, 0.705);
+    height: 100%;
+    width: 100%
 }
 
 
