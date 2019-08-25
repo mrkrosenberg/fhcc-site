@@ -1,56 +1,46 @@
-.home-about {
-    /* Structure */
-    height: 120vh;
+.color {
+    background-color: rgba(118, 233, 118, 0.705);
+    height: 100%;
+    width: 100%
+}
 
-    /* Parallax Scrolling Background */
-    background-image: linear-gradient(to right bottom rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705)),
+.home-about {
+    height: 120vh;
+    border-bottom: 1px solid rgb(26, 138, 166);
+
+    background-image: 
         url(../../assets/highway2.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    /* Style */
-    border-bottom: 1px solid rgb(26, 138, 166);
 }
 
-/* Content */
 
 .about-content {
-    /* Structure */
     height: 100%;
     margin-left: 15vw;
     margin-right: 15vw;
     padding-top: 15vh;
-
-    /* Style */
     font-size: 1.25rem;
     color: white;
 }
 
 .heading {
-    /* Structure */
     margin-bottom: 3vh;
 }
 
 h5 {
-    /* Style */
     font-size: 3rem;
     font-weight: 600;
 }
 
 .btn-container {
-    /* Structure */
     margin-top: 20vh;
-
-    /* Style */
 }
 
 .btn {
-    /* Structure */
     padding: 15px 65px;
-
-    /* Style */
     background: none;
     border: 2px solid white;
     border-radius: 40px;
@@ -58,16 +48,13 @@ h5 {
     font-size: 1.25rem;
 }
 
-/* Button Effect */
 
 .btn:hover {
-  /* Style */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
   transform: scale(1.01);
 }
 
 .btn:active {
-  /* Style */
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
   transform: scale(1);
 }
@@ -75,16 +62,10 @@ h5 {
 @media screen and (max-width: 400px) {
 
     .home-about {
-        /* Structure */
         height: 110vh;
-
-        /* Style */
     }
 
     .about-content {
-        /* Structure */
-
-        /* Style */
         font-size: 0.9rem;
     }
 

@@ -1,10 +1,17 @@
+.color {
+    height: 100%;
+    width: 100%;
+    background: rgba(118, 233, 118, 0.705);
+    padding-top: 10vh;
+}
+
 .home-subscribe {
      /* Structure */
      height: 100vh;
-     padding-top: 10vh;
+     /* padding-top: 10vh; */
 
     /* Parallax Scrolling Background */
-    background-image: linear-gradient(to right bottom rgba(118, 233, 118, 0.705), rgba(118, 233, 118, 0.705)),
+    background-image: 
      url(../../assets/cutloose.jpg);
     background-position: top;
     background-size: cover;
