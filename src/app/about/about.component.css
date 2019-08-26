@@ -12,15 +12,18 @@
 }
 
 .color {
+    padding-top: 20vh;
     height: 100%;
     width: 100%;
-    padding-top: 20vh;
     background-color: rgba(118, 233, 118, 0.705);
 }
 
 .title {
-    font-size: 5.5vw;
     color: white;
+}
+
+h1 {
+    font-size: 5.5vw;
 }
 
 .about-details {

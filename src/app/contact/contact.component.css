@@ -11,14 +11,15 @@
 }
 
 .color {
+    padding-top: 20vh;
     background-color: rgba(118, 233, 118, 0.705);
     height: 100%;
     width: 100%;
 }
 
-.title {
-    font-size: 5.5vw;
+h1 {
     color: white;
+    font-size: 5.5vw;
 }
 
 .donate-details {

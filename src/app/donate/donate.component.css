@@ -1,13 +1,22 @@
 .title-container {
-    background-color: rgba(118, 233, 118, 0.705);
     height: 60vh;
-    border-bottom: 1px solid rgb(26, 138, 166);
-
     text-align: center;
-    padding-top: 20vh;
+    padding: 0;
+    border-bottom: 1px solid rgb(26, 138, 166);
+    background-image: url(../../assets/Abram.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.title {
+.color {
+    padding-top: 20vh;
+    background-color: rgba(118, 233, 118, 0.705);
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
     font-size: 5.5vw;
     color: white;
 }

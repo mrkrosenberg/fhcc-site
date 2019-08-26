@@ -11,6 +11,7 @@
 }
 
 .color {
+    padding-top: 20vh;
     height: 100%;
     width: 100%;
     background-color: rgba(118, 233, 118, 0.705);
