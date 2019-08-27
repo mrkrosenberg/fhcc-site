@@ -20,7 +20,7 @@ export class AboutComponent implements OnInit {
 
   unsubscribe: Subject<void> = new Subject<void>();
 
-  bio: Bio[];
+  bioCollection: Bio[];
 
   constructor(private firebaseService: FirebaseService,
     private storage: AngularFireStorage) { }
@@ -28,10 +28,10 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
       this.firebaseService.getBio()
       .pipe(takeUntil(this.unsubscribe))
-      .subscribe(bio => {
+      .subscribe(biography => {
 
-      this.bio = bio;
-      console.log(this.bio);
+      this.bioCollection = biography.reverse();
+      // console.log(this.bioCollection);
 
     });
   }

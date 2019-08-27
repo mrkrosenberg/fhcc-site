@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Story, Bio } from '../models/story';
+
+// Models
+import { Story } from '../models/story';
+import { Bio } from '../models/bio';
 
 // Firebase
 import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument } from '@angular/fire/firestore';

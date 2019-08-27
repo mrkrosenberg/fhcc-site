@@ -6,5 +6,8 @@
   </div>
 </div>
 <div class="about-details">
-  <p *ngFor="let bio of bio">{{bio.bio}}</p>
+  <div class="container" *ngFor="let bio of bioCollection">
+    <h3>{{bio.title}}</h3>
+    <p>{{bio.body}}</p>
+  </div>
 </div>
