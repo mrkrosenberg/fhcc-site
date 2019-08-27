@@ -1,30 +1,4 @@
-.color {
-    height: 100%;
-    width: 100%;
-    background: rgba(118, 233, 118, 0.705);
-    padding-top: 10vh;
-}
-
-.home-subscribe {
-     height: 100vh;
-     text-align: center;
-
-    /* Parallax Scrolling Background */
-    background-image: 
-     url(../../assets/cutloose.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    border-bottom: 1px solid rgb(26, 138, 166);
-}
-
-.heading {
-    color: white;
-}
-
-/* #mc_embed_signup {
+#mc_embed_signup {
     width: 60%;
     padding: 5vh;
     background-color: rgba(26, 138, 166, 0.5);
@@ -37,18 +11,25 @@
 }
 
 input {
+    /* Structure */
     width: 300px;
     margin-top: 5vh;
 
+    /* Style */
 }
 
 .btn-container {
+    /* Structure */
     margin-top: 15vh;
 
+    /* Style */
 }
 
 .button {
+    /* Structure */
     padding: 15px 65px;
+    
+    /* Style */
     background: none;
     border: 2px solid white;
     border-radius: 40px;
@@ -56,13 +37,16 @@ input {
     font-size: 1.25rem;
 }
 
+/* Button Effect */
 
 .button:hover {
+  /* Style */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
   transform: scale(1.01);
 }
 
 .button:active {
+  /* Style */
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
   transform: scale(1);
-} */
+}

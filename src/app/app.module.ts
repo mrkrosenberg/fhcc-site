@@ -41,6 +41,7 @@ import { SupportComponent } from './support/support.component';
 import { SliderButtonComponent } from './slider-button/slider-button.component';
 import { SliderComponent } from './slider/slider.component';
 import { NewsComponentComponent } from './news-component/news-component.component';
+import { MailchimpComponent } from './mailchimp/mailchimp.component';
 
 
 @NgModule({
@@ -66,7 +67,8 @@ import { NewsComponentComponent } from './news-component/news-component.componen
     SupportComponent,
     SliderButtonComponent,
     SliderComponent,
-    NewsComponentComponent
+    NewsComponentComponent,
+    MailchimpComponent
   ],
   imports: [
     BrowserModule,
