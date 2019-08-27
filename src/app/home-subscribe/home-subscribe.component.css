@@ -6,9 +6,8 @@
 }
 
 .home-subscribe {
-     /* Structure */
      height: 100vh;
-     /* padding-top: 10vh; */
+     text-align: center;
 
     /* Parallax Scrolling Background */
     background-image: 
@@ -17,17 +16,19 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    /* Style */
-    text-align: center;
+    
     border-bottom: 1px solid rgb(26, 138, 166);
 }
 
 .heading {
-    /* Structure */
-
-    /* Style */
     color: white;
+}
+
+#mc_embed_signup {
+    width: 60%;
+    padding: 5vh;
+    background-color: rgba(26, 138, 166, 0.5);
+    border: 2px outset rgb(26, 138, 166);
 }
 
 .indicates-required {
