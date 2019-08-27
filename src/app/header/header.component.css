@@ -1,17 +1,16 @@
 .navbar {
-    /* Structure */
-
-    /* Style */
     background: none;
     border-bottom: 1px solid rgb(26, 138, 166);
     color: rgb(26, 138, 166);
 }
 
+button {
+    margin-right: 0;
+}
+
 .nav-item {
-    /* Structure */
     margin-left: 2vh;
 
-    /* Style */
     color: black;
     font-size: .90rem;
 }
@@ -22,10 +21,8 @@
 }
 
 .btn {
-  /* Structure */
   padding: 8px 30px;
 
-  /* Style */
   background: none;
   border: 2px solid rgb(26, 138, 166);
   border-radius: 40px;
@@ -36,28 +33,24 @@
 /* Button Effect */
 
 .btn:hover {
-  /* Style */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
   transform: scale(1.01);
   background-color: rgba(90, 192, 121, 0.788);
 }
 
 .btn:active {
-  /* Style */
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
   transform: scale(1);
 }
 
 @media screen and (max-width: 767px) {
     .btn {
-        /* Strucutre */
         display: none;
     }
 }
 
 @media screen and (min-width: 768px) {
     .donate-btn{
-        /* Structure */
         display: none;
     }
 }
