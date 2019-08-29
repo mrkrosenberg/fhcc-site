@@ -22,10 +22,25 @@ h1 {
 }
 
 .donate-details {
+    text-align: center;
+    padding-top: 10vh;
     height: 100vh;
     width: 100%;
     background-image: url(../../assets/black1.png);
-    background-size: 60vh;
+    background-size: 80vh;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.event-card {
+    display: inline-block;
+    height: 30vh;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url(/../assets/BCC-logo\ copy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(26, 138, 166);
 }
