@@ -1,5 +1,7 @@
 #mc_embed_signup {
-    width: 60%;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
     padding: 5vh;
     background-color: rgba(26, 138, 166, 0.5);
     border: 2px outset rgb(26, 138, 166);
@@ -10,26 +12,19 @@
     color: white;
 }
 
-input {
-    /* Structure */
-    width: 300px;
+.form-input {
+    width: 80%;
     margin-top: 5vh;
-
-    /* Style */
 }
 
 .btn-container {
-    /* Structure */
     margin-top: 15vh;
-
-    /* Style */
 }
 
 .button {
-    /* Structure */
+    text-align: center;
+    margin-top: 10vh;
     padding: 15px 65px;
-    
-    /* Style */
     background: none;
     border: 2px solid white;
     border-radius: 40px;
@@ -40,13 +35,11 @@ input {
 /* Button Effect */
 
 .button:hover {
-  /* Style */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
   transform: scale(1.01);
 }
 
 .button:active {
-  /* Style */
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
   transform: scale(1);
 }

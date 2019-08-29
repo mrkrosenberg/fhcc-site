@@ -22,47 +22,9 @@
 
 .heading {
     color: white;
+    margin-bottom: 5vh;
 }
 
-/* #mc_embed_signup {
-    width: 60%;
-    padding: 5vh;
-    background-color: rgba(26, 138, 166, 0.5);
-    border: 2px outset rgb(26, 138, 166);
+.form-container {
+    text-align: center;
 }
-
-.indicates-required {
-    font-size: .5rem;
-    color: white;
-}
-
-input {
-    width: 300px;
-    margin-top: 5vh;
-
-}
-
-.btn-container {
-    margin-top: 15vh;
-
-}
-
-.button {
-    padding: 15px 65px;
-    background: none;
-    border: 2px solid white;
-    border-radius: 40px;
-    color: white;
-    font-size: 1.25rem;
-}
-
-
-.button:hover {
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
-  transform: scale(1.01);
-}
-
-.button:active {
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
-  transform: scale(1);
-} */
