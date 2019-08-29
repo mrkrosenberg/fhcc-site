@@ -35,7 +35,7 @@
     background-repeat: no-repeat;
     background-size: 80vh;
     border-bottom: 1px solid rgb(26, 138, 166);
-    color: rgb(26, 138, 166);
+    /* color: rgb(26, 138, 166); */
 }
 
 .news-options {
@@ -61,6 +61,20 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.date {
+    font-size: .75rem;
+    color: gray;
+}
+
+.news-body {
+    margin-top: 10vh;
+}
+
+.content {
+    margin-top: 5vh;
+    text-align: left;
 }
 
 
