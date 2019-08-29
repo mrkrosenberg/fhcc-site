@@ -44,6 +44,12 @@
     white-space: nowrap;
 }
 
+.story-container {
+    height: 30vh;
+    width: 35vh;
+    display: inline-block;
+}
+
 .story-option {
     padding: 0px 50px;
     margin: 0 20px;
