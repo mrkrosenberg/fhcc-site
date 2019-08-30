@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
@@ -17,6 +17,8 @@ import { Bio } from '../models/bio';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
+
+  @Input() title = 'About the FHCC';
 
   unsubscribe: Subject<void> = new Subject<void>();
 

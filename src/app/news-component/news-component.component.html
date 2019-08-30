@@ -1,10 +1,4 @@
-<div class="container-fluid title-container">
-  <div class="color">
-    <h1 class="title">
-      News & Updates
-    </h1>
-  </div>
-</div>
+<app-title-component [title]="title"></app-title-component>
 <div class="container news-content">
     <div class="news-options" >
       <div class="story-container" *ngFor="let story of stories" (click)=onStoryChange(story)>

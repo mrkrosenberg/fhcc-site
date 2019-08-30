@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventsComponent implements OnInit {
 
+  title = 'FHCC Events';
+
   constructor() { }
 
   poster = true;

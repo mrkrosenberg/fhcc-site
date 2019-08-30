@@ -1,10 +1,4 @@
-<div class="container-fluid title-container">
-  <div class="container-fluid color">
-    <div class="title">
-      <h1>About the FHCC</h1>
-    </div>
-  </div>
-</div>
+<app-title-component [title]="title"></app-title-component>
 <div class="about-details">
   <div class="container" *ngFor="let bio of bioCollection">
     <h3>{{bio.title}}</h3>

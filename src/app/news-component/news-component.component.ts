@@ -17,6 +17,8 @@ import { Story } from '../models/story';
 })
 export class NewsComponentComponent implements OnInit {
 
+  title = 'News and Updates';
+
   stories: Story[];
   story: Story;
   unsubscribe: Subject<void> = new Subject<void>();

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DonateComponent implements OnInit {
 
+title = 'Support Local Climbing';
+
   constructor() { }
 
   ngOnInit() {
