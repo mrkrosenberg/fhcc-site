@@ -1,24 +1,17 @@
 .home-events {
-    /* Structure */
     height: 110vh;
-
-    /* Style */
     text-align: center;
     border-bottom: 1px solid rgb(26, 138, 166);
 }
 
 .events-heading {
-    /* Structure */
     height: 15vh;
     margin-top: 10vh;
-
-    /* Style */
     color: rgb(26, 138, 166);
     
 }
 
 .events {
-    /* Structure */
     display: flex;
     height: 60vh;
     width: 100%;
@@ -28,23 +21,15 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-
-    /* Style */
 }
 
 .btn-container {
-    /* Structure */
     height: 30vh;
     margin-top: 10vh;
-
-    /* Style */
 }
 
 .btn {
-    /* Structure */
     padding: 15px 80px;
-
-    /* Style */
     background: none;
     border: 2px solid rgb(26, 138, 166);
     border-radius: 40px;
@@ -52,53 +37,43 @@
     font-size: 1.25rem;
 }
 
+.event-card {
+  display: inline-block;
+  height: 50vh;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(26, 138, 166);
+}
+
+.van {
+  background-image: url(../../assets/vandemonium.jpg);
+
+}
+
+.aah {
+  background-image: url(../../assets/aah.jpg);
+
+}
+
 /* Button Effect */
 
-.btn:hover {
-  /* Style */
+/* .btn:hover {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
   transform: scale(1.01);
 }
 
 .btn:active {
-  /* Style */
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
   transform: scale(1);
-}
+} */
 
-.event-card {
-    /* Structure */
-    display: inline-block;
-    height: 50vh;
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
-    
-    /* Style */
-    background-image: url(../../assets/aah.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 1px solid rgb(26, 138, 166);
-}
 
-.event-card-2 {
-      /* Structure */
-      display: inline-block;
-      height: 50vh;
-      width: 300px;
-      margin-left: 20px;
-      margin-right: 20px;
-      
-      /* Style */
-      background-image: url(../../assets/vandemonium.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      border: 1px solid rgb(26, 138, 166);
-}
 
-.event-card:hover {
+/* .event-card:hover {
   transform: translateY(-1vh);
   box-shadow: 2vh 1vh 40px rgba(0, 0, 0, 0.25);
 }
@@ -106,7 +81,7 @@
 .event-card:active {
   transform: translate(.5vh);
   box-shadow: 1vh 0.5vh 20px rgba(0, 0, 0, 0.25);
-}
+} */
 
 @media screen and (max-width : 675px) {
 
