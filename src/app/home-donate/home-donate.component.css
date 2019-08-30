@@ -1,9 +1,6 @@
 .home-donate {
-    /* Structure */
     height: 100vh;
     padding-top: 20vh;
-
-    /* Style */
     background-image: url(../../assets/black1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -14,16 +11,12 @@
 }
 
 p {
-  /* Structure */
   width: 75vw;
   margin: 5vh 12.5vw 15vh 12.5vw;
 }
 
 .btn {
-  /* Structure */
   padding: 15px 80px;
-
-  /* Style */
   background: none;
   border: 2px solid rgb(26, 138, 166);
   border-radius: 40px;
@@ -33,14 +26,16 @@ p {
 
 /* Button Effect */
 
-.btn:hover {
-  /* Style */
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
-  transform: scale(1.01);
-}
+@media screen and (min-width : 700px) {
 
-.btn:active {
-  /* Style */
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
-  transform: scale(1);
+  .btn:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+    transform: scale(1.01);
+  }
+  
+  .btn:active {
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
+    transform: scale(1);
+  }
+
 }

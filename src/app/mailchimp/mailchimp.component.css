@@ -34,12 +34,17 @@
 
 /* Button Effect */
 
-.button:hover {
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
-  transform: scale(1.01);
+@media screen and (min-width : 700px) {
+
+    .button:hover {
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+        transform: scale(1.01);
+      }
+      
+      .button:active {
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
+        transform: scale(1);
+      }
+
 }
 
-.button:active {
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
-  transform: scale(1);
-}

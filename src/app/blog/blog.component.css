@@ -1,9 +1,6 @@
 .home-blog {
-    /* Structure */
-    height: 110vh;
+    height: 100vh;
     text-align: center;
-
-    /* Style */
     border-bottom: 1px solid rgb(26, 138, 166);
 }
 
@@ -17,6 +14,7 @@
 .blog-section {
     height: 65vh;
     width: 100%;
+    margin-bottom: 0;
     padding-left: 10vh;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -33,16 +31,6 @@
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid black;    
-}
-
-.blog-post:hover {
-  transform: translateY(-1vh);
-  box-shadow: 2vh 1vh 40px rgba(0, 0, 0, 0.25);
-}
-
-.blog-post:active {
-  transform: translate(.5vh);
-  box-shadow: 1vh 0.5vh 20px rgba(0, 0, 0, 0.25);
 }
 
 .one {
@@ -71,7 +59,7 @@
 
 .btn-container {
     height: 30vh;
-    margin-top: 10vh;
+    /* margin-top: 5vh; */
 }
 
 .btn {
@@ -85,13 +73,27 @@
 
 /* Button Effect */
 
-/* .btn:hover {
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
-  transform: scale(1.01);
-}
+@media screen and (min-width : 700px) {
 
-.btn:active {
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
-  transform: scale(1);
-} */
+  .blog-post:hover {
+    transform: translateY(-1vh);
+    box-shadow: 2vh 1vh 40px rgba(0, 0, 0, 0.25);
+  }
+  
+  .blog-post:active {
+    transform: translate(.5vh);
+    box-shadow: 1vh 0.5vh 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .btn:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+    transform: scale(1.01);
+  }
+  
+  .btn:active {
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
+    transform: scale(1);
+  }
+
+}
 

@@ -46,17 +46,6 @@ h5 {
     font-size: 1.25rem;
 }
 
-
-.btn:hover {
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
-  transform: scale(1.01);
-}
-
-.btn:active {
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
-  transform: scale(1);
-}
-
 @media screen and (max-width: 400px) {
 
     .home-about {
@@ -66,5 +55,19 @@ h5 {
     .about-content {
         font-size: 0.9rem;
     }
+
+}
+
+@media screen and (min-width : 700px) {
+
+    .btn:hover {
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+        transform: scale(1.01);
+      }
+      
+      .btn:active {
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
+        transform: scale(1);
+      }
 
 }

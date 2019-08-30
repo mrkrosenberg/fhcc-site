@@ -59,29 +59,6 @@
 
 }
 
-/* Button Effect */
-
-/* .btn:hover {
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
-  transform: scale(1.01);
-}
-
-.btn:active {
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
-  transform: scale(1);
-} */
-
-
-
-/* .event-card:hover {
-  transform: translateY(-1vh);
-  box-shadow: 2vh 1vh 40px rgba(0, 0, 0, 0.25);
-}
-
-.event-card:active {
-  transform: translate(.5vh);
-  box-shadow: 1vh 0.5vh 20px rgba(0, 0, 0, 0.25);
-} */
 
 @media screen and (max-width : 675px) {
 
@@ -90,3 +67,37 @@
     }
 
 } 
+
+/* Button Effect - no animation for mobile devices*/
+
+@media screen and (min-width : 700px) {
+
+  .btn:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+    transform: scale(1.01);
+  }
+  
+  .btn:active {
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
+    transform: scale(1);
+  }
+  
+  
+  
+  .event-card:hover {
+    transform: translateY(-1vh);
+    box-shadow: 2vh 1vh 40px rgba(0, 0, 0, 0.25);
+  }
+  
+  .event-card:active {
+    transform: translate(.5vh);
+    box-shadow: 1vh 0.5vh 20px rgba(0, 0, 0, 0.25);
+  }
+
+}
+
+@media screen and (min-width : 700px) {
+
+
+
+}
