@@ -31,6 +31,8 @@ h1 {
     width: 100%;
     overflow-y: scroll;
     /* white-space: nowrap; */
+    padding-top: 10vh;
+    line-height: 2rem;
     background-image: url(../../assets/black1.png);
     background-size: 60vh;
     background-position: center;
