@@ -30,7 +30,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid black;    
+  border: 1px outset rgb(26, 138, 166);    
 }
 
 .one {
