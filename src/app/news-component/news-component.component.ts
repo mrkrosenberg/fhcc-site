@@ -19,6 +19,11 @@ export class NewsComponentComponent implements OnInit {
 
   title = 'News and Updates';
 
+  titleObject = {
+    title: 'News and Updates',
+    id: 'news'
+  };
+
   stories: Story[];
   story: Story;
   unsubscribe: Subject<void> = new Subject<void>();

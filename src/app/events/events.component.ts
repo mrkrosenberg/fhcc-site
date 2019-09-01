@@ -9,6 +9,11 @@ export class EventsComponent implements OnInit {
 
   title = 'FHCC Events';
 
+  titleObject = {
+    title: 'FHCC Events',
+    id: 'events'
+  };q
+
   constructor() { }
 
   poster = true;

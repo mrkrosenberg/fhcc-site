@@ -9,6 +9,11 @@ export class ContactComponent implements OnInit {
 
   title = 'Contact Us';
 
+  titleObject = {
+    title: 'Contact Us',
+    id: 'contact'
+  };
+
   constructor() { }
 
   ngOnInit() {

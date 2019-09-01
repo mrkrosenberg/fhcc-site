@@ -9,6 +9,11 @@ export class DonateComponent implements OnInit {
 
 title = 'Support Local Climbing';
 
+titleObject = {
+  title: 'Support Local Climbing',
+  id: 'donate'
+};
+
   constructor() { }
 
   ngOnInit() {

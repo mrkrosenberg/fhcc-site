@@ -7,11 +7,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class TitleComponentComponent implements OnInit {
 
-  @Input() title: string;
+  @Input() titleObject: Object;
 
   constructor() { }
 
   ngOnInit() {
+    console.log('here you go: ', this.titleObject);
   }
 
   // Write if statement to change background images depending on the title

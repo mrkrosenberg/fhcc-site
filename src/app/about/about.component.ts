@@ -1,8 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { AngularFireStorage, AngularFireStorageReference } from '@angular/fire/storage';
+import { AngularFireStorage } from '@angular/fire/storage';
 
 // Services
 import { FirebaseService } from '../services/firebase.service';
@@ -18,7 +18,12 @@ import { Bio } from '../models/bio';
 })
 export class AboutComponent implements OnInit {
 
-  @Input() title = 'About the FHCC';
+  title = 'About the FHCC';
+
+  titleObject = {
+    title: 'About the FHCC',
+    id: 'about'
+  };
 
   unsubscribe: Subject<void> = new Subject<void>();
 
