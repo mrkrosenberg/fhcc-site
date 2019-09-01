@@ -58,7 +58,7 @@ i {
 }
 
 .btn-container {
-    /* margin-bottom: 20vh; */
+    margin-top: 3vh;
     padding-bottom: 10vh;
 }
 
@@ -73,27 +73,26 @@ i {
 
 /* Button Effect */
 
-.btn:hover {
-  /* Style */
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
-  transform: scale(1.01);
+@media screen and (min-width : 700px) {
+
+    .btn:hover {
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+        transform: scale(1.01);
+      }
+      
+      .btn:active {
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
+        transform: scale(1);
+      }
 }
 
-.btn:active {
-  /* Style */
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
-  transform: scale(1);
-}
 
 @media screen and (max-width: 900px) {
 
     .heading {
-        /* Structure */
         background-size: 75vh;
         background-position: top;
         margin-top: 10vh;
-
-        /* Style */
     }
 
     .btn-container {
