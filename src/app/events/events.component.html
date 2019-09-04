@@ -1,9 +1,8 @@
 <app-title-component [titleObject]="titleObject"></app-title-component>
 <div class="container-fluid event-details">
   <div class="container-fluid event-container view-options">
-    <h6 [class.active]="isActive" (click)="posterView()">Posters</h6>
-    |
-    <h6 [class.active]="!isActive" (click)="calendarView()">Calendar</h6>
+    <h6 class="poster-option" [class.active]="isActive" (click)="posterView()">Posters</h6>
+    <h6 class="calendar-option" [class.active]="!isActive" (click)="calendarView()">Calendar</h6>
   </div>
   <div class="container-fluid event-container poster-view" *ngIf="isActive">
       <div class="event-card one"></div>

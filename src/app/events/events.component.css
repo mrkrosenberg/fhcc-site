@@ -15,12 +15,27 @@
     text-align: center;
 }
 
+.view-options {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
 h6 {
     display: inline;
+    padding: 15px 50px;
+    border: 1px solid black;
 }
 
 h6:hover {
     cursor: pointer;
+}
+
+.poster-option {
+    border-radius: 10px 0 0 10px;
+}
+
+.calendar-option {
+    border-radius: 0 10px 10px 0;
 }
 
 .active {
@@ -54,6 +69,6 @@ h6:hover {
 
 .stay-tuned {
     width: 100%;
-    margin-top: 15vh;
+    margin-top: 10vh;
     text-align: center;
 }
