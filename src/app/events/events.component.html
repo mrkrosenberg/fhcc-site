@@ -1,15 +1,15 @@
 <app-title-component [titleObject]="titleObject"></app-title-component>
 <div class="container-fluid event-details">
   <div class="container-fluid event-container view-options">
-    <h6 (click)="posterView()">Posters</h6>
+    <h6 [class.active]="isActive" (click)="posterView()">Posters</h6>
     |
-    <h6 (click)="calendarView()">Calendar</h6>
+    <h6 [class.active]="!isActive" (click)="calendarView()">Calendar</h6>
   </div>
-  <div class="container-fluid event-container poster-view" *ngIf="poster">
+  <div class="container-fluid event-container poster-view" *ngIf="isActive">
       <div class="event-card one"></div>
       <div class="event-card two"></div>
   </div>
-  <div class="container-fluid event-container calendar-view" *ngIf="calendar">
+  <div class="container-fluid event-container calendar-view" *ngIf="!isActive">
       <iframe src="https://calendar.google.com/calendar/embed?src=76gata3nrv638vnd35gbi15oo8%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
   </div>
   <div class="container stay-tuned">

@@ -23,6 +23,10 @@ h6:hover {
     cursor: pointer;
 }
 
+.active {
+    background-color: rgba(26, 138, 166, .5);
+}
+
 .event-card {
     display: inline-block;
     height: 50vh;
@@ -50,5 +54,6 @@ h6:hover {
 
 .stay-tuned {
     width: 100%;
+    margin-top: 15vh;
     text-align: center;
 }

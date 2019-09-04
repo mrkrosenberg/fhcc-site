@@ -12,24 +12,22 @@ export class EventsComponent implements OnInit {
   titleObject = {
     title: 'FHCC Events',
     id: 'events'
-  };q
+  };
+
+  isActive = true;
 
   constructor() { }
 
-  poster = true;
-  calendar = false;
 
   ngOnInit() {
   }
 
   posterView() {
-    this.poster = true;
-    this.calendar = false;
+    this.isActive = true;
   }
 
   calendarView() {
-    this.calendar = true;
-    this.poster = false;
+    this.isActive = false;
   }
 
 }
