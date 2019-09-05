@@ -23,6 +23,7 @@
     height: 30vh;
     width: 35vh;
     display: inline-block;
+    cursor: pointer;
 }
 
 .story-option {

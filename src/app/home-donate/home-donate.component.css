@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+.donate-heading {
+  color: rgb(26, 138, 166);   
+}
+
 p {
   width: 75vw;
   margin: 5vh 12.5vw 15vh 12.5vw;

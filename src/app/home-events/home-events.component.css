@@ -6,7 +6,8 @@
 
 .events-heading {
     height: 15vh;
-    margin-top: 10vh;    
+    margin-top: 10vh; 
+    color: rgb(26, 138, 166);   
 }
 
 .events {
