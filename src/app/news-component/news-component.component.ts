@@ -50,7 +50,7 @@ export class NewsComponentComponent implements OnInit {
   ngOnDestroy() {
     this.unsubscribe.next();
     this.unsubscribe.complete();
-    console.log('destroyed');
+    // console.log('destroyed');
   };
 
 
@@ -58,7 +58,7 @@ export class NewsComponentComponent implements OnInit {
 
   onStoryChange(story) {
 
-    console.log('changed story: ', story);
+    // console.log('changed story: ', story);
     this.story = story;
 
     // this.featureStory = story;

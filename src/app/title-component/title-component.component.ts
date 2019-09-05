@@ -12,9 +12,6 @@ export class TitleComponentComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('here you go: ', this.titleObject);
   }
-
-  // Write if statement to change background images depending on the title
 
 }

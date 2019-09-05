@@ -22,6 +22,11 @@
     border: 1px solid rgb(26, 138, 166);
 }
 
+.bcc-link-container {
+  padding-top: 10vh;
+  margin-bottom: 10vh;
+}
+
 @media screen and (min-width : 700px) {
         
     .event-card:hover {
