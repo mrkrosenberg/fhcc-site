@@ -22,12 +22,27 @@ h3 {
 }
 
 i {
-    color: rgb(26, 138, 166);
     font-size: 4rem;
     margin: 10px;
+    color: rgb(26, 138, 166);
+    background-color: transparent;
 }
 
 hr {
     width: 50%;
     margin: 10vh auto;
 }
+
+/* @media screen and (min-width : 700px) {
+
+    i:hover {
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+        transform: scale(1.01);
+      }
+      
+      i:active {
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.233);
+        transform: scale(1);
+      }
+
+} */
