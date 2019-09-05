@@ -13,33 +13,18 @@
     align-content: center;
     justify-content: center;
     text-align: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .view-options {
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
-}
-
-h6 {
-    display: inline;
-    padding: 15px 50px;
-    border: 1px solid black;
-}
-
-h6:hover {
-    cursor: pointer;
-}
-
-.poster-option {
-    border-radius: 10px 0 0 10px;
-}
-
-.calendar-option {
-    border-radius: 0 10px 10px 0;
-}
-
-.active {
-    background-color: rgba(26, 138, 166, .5);
 }
 
 .event-card {
@@ -48,7 +33,6 @@ h6:hover {
     width: 300px;
     margin-left: 20px;
     margin-right: 20px;
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,8 +47,30 @@ h6:hover {
     background-image: url(../../assets/IMG_0016.JPG);
 }
 
+.poster-option {
+    border-radius: 10px 0 0 10px;
+}
+
+.calendar-option {
+    border-radius: 0 10px 10px 0;
+}
+
+.active {
+    background-color: rgba(26, 138, 166, .5);
+}
+
 .poster-view {
     padding-top: 15vh;
+}
+
+h6 {
+    display: inline;
+    padding: 15px 50px;
+    border: 1px solid black;
+}
+
+h6:hover {
+    cursor: pointer;
 }
 
 .stay-tuned {
