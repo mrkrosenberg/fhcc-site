@@ -13,7 +13,7 @@ import { Story } from '../models/story';
 @Component({
   selector: 'app-news-component',
   templateUrl: './news-component.component.html',
-  styleUrls: ['./news-component.component.css']
+  styleUrls: ['./news-component.component.scss']
 })
 export class NewsComponentComponent implements OnInit {
 
