@@ -37,7 +37,6 @@ import { EventCardComponent } from './event-card/event-card.component';
 import { HomeAboutComponent } from './home-about/home-about.component';
 import { HomeDonateComponent } from './home-donate/home-donate.component';
 import { HomeSubscribeComponent } from './home-subscribe/home-subscribe.component';
-import { SupportComponent } from './support/support.component';
 import { SliderButtonComponent } from './slider-button/slider-button.component';
 import { SliderComponent } from './slider/slider.component';
 import { NewsComponentComponent } from './news-component/news-component.component';
@@ -65,7 +64,6 @@ import { TitleComponentComponent } from './title-component/title-component.compo
     HomeAboutComponent,
     HomeDonateComponent,
     HomeSubscribeComponent,
-    SupportComponent,
     SliderButtonComponent,
     SliderComponent,
     NewsComponentComponent,
