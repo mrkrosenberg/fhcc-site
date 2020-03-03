@@ -3,7 +3,7 @@
     <div class="news-options" >
       <div class="story-container" *ngFor="let story of stories" (click)=onStoryChange(story)>
         <div class="story-option" >
-            <!-- <img src="{{story?.image}}" alt=""> -->
+            <img class="story-image" src={{story?.imageUrl}} alt="">
         </div>
         <div class="story-title">
           <h6>{{story?.title}}</h6>
@@ -14,7 +14,7 @@
     <hr>
     <div class="news-body">
       <h3>{{ story?.title }}</h3>
-      <p class="content">{{ story?.description }}</p>
+      <p class="content">{{ story?.body }}</p>
     </div>
 </div>
 

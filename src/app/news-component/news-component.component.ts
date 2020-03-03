@@ -37,6 +37,7 @@ export class NewsComponentComponent implements OnInit {
     this.firebaseService.getStories()
       .pipe(takeUntil(this.unsubscribe))
       .subscribe(stories => {
+        console.log(stories)
 
       this.stories = stories;
 
@@ -51,7 +52,7 @@ export class NewsComponentComponent implements OnInit {
     this.unsubscribe.next();
     this.unsubscribe.complete();
     // console.log('destroyed');
-  };
+  }
 
 
 

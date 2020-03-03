@@ -19,7 +19,7 @@ export class FirebaseService {
 
   constructor(public firestore: AngularFirestore) {
 
-    this.stories = this.firestore.collection('stories').valueChanges();
+    this.stories = this.firestore.collection('test').valueChanges();
     this.bio = this.firestore.collection('bio').valueChanges();
 
    }
